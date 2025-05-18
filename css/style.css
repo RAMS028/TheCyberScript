@@ -534,3 +534,67 @@ footer {
     width: 90%;
   }
 }
+
+/* Navbar para móviles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;  /* Apila los enlaces */
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  
+  nav a {
+    padding: 0.8rem;
+    font-size: 1rem;  /* Texto más grande para dedos */
+    display: block;   /* Ocupa todo el ancho */
+  }
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+  /* Ajustes generales */
+  body {
+    font-size: 16px;  /* Texto más legible */
+  }
+  
+  /* Navbar */
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    background: rgba(10, 25, 47, 0.95);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1rem 0;
+  }
+  
+  /* Hero Section */
+  .hero h1 {
+    font-size: 1.8rem;  /* Título más pequeño */
+    margin-top: 60px;   /* Espacio para el navbar */
+  }
+  
+  /* Iconos */
+  .service-card i, 
+  .ninja-icon {
+    font-size: 1.8rem !important;
+  }
+}
+
+/* ===== ABOUT SECTION - RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column; /* Apila imagen y texto */
+  }
+
+  .about-image-placeholder {
+    width: 200px !important;  /* Tamaño reducido */
+    height: 200px !important;
+    margin: 2rem auto;       /* Centrado */
+  }
+
+  .about-image-placeholder i {
+    font-size: 3rem !important; /* Ícono más pequeño */
+  }
+}
