@@ -598,3 +598,42 @@ footer {
     font-size: 3rem !important; /* Ícono más pequeño */
   }
 }
+
+/* Estilos para botones de explicación */
+.btn-code {
+  display: inline-block;
+  background: #64ffda;
+  color: #0a192f;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-family: 'Fira Code', monospace;
+  margin-top: 1rem;
+  transition: transform 0.3s;
+}
+.btn-code:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(100, 255, 218, 0.3);
+}
+.btn-code::after {
+  margin-left: 0.5rem;
+}
+
+/* Responsive para About y botones */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+  .about-image-placeholder {
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto;
+  }
+  .about-image-placeholder i {
+    font-size: 3rem;
+  }
+  .btn-code {
+    width: 100%;
+    text-align: center;
+  }
+}
