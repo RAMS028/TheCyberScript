@@ -420,6 +420,26 @@ footer {
     flex-direction: column;
     gap: 1rem;
   }
+
+  body {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0;
+  }
+  header, nav, main, footer {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .container, .contenedor, .content {
+    width: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  /* Ajusta aquí más clases según tu diseño */
 }
 
 /* ===== DARK MODE ===== */

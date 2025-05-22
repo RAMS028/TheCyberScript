@@ -1,0 +1,19 @@
+body {
+  font-size: 16px;
+  padding: 10px;
+  background: #fff;
+}
+.container {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  box-shadow: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+nav {
+  display: block;
+  text-align: center;
+}
